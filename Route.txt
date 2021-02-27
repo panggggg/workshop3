@@ -1,0 +1,10 @@
+
+Restful
+http Method                   path                      meaning                          example
+    get                 /nisits                     search all insit            
+    get                 /nisits/{nisits_id}         search by id                      /nisits/6130203357
+    post                /nisits                     add nisit                   
+    put                 /nisits                     update value of all nisit        
+    patch               /nisits/{nisits_id}         update value at id                /nisits/6130203357
+    delete              /nisits                     delete all of nisits
+    delete              /nisits/{nisits_id}         delete nisit at id                /nisits/6130203357
